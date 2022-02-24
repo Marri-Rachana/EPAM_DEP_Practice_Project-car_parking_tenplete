@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="parking1.css">
+    <link rel="stylesheet" href="index_style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+       function bookingslot(Present_Id)
+       {
+           var selected = document.getElementById(Present_Id);
+           if(selected.style.background == "brown")
+           {
+               alert("select another seat its already booked!");
+           }
+           else if(selected.style.background=="transparent")
+           {
+               selected.style.background = "green";
+           }
+           else{
+            selected.style.background = "transparent";
+           }
+       }
+      
+    </script>
+</head>
+<body class="body_class">
+    <div id="main">
+        <div class="rows">
+        <div class="new frt" style="background: brown;" id="A1" onclick="bookingslot(this.id)"><p>Slot 1A</p></div>
+        <div class="new sec hov" id="A2" onclick="bookingslot(this.id)"><p>Slot 1B</p></div>
+        </div>
+        <br><br>
+        <div class="rows">
+            <div class="new sec hov" id="A3" onclick="bookingslot(this.id)"><p>Slot 2A</p></div>
+            <div class="new frt hov" id="A4" onclick="bookingslot(this.id)"><p>Slot 2B</p></div>
+        </div>
+        <br><br>
+        <div class="rows">
+            <div class="new frt hov" id="A5" onclick="bookingslot(this.id)"><p>Slot 3A</p></div>
+            <div class="new sec" style="background: brown;" id="A6" onclick="bookingslot(this.id)"><p>Slot 3B</p></div>
+        </div>
+        <br><br>
+        <div class="rows">
+            <div class="new sec hov" id="A7" onclick="bookingslot(this.id)"><p>Slot 4A</p></div>
+            <div class="new frt hov" id="A8" onclick="bookingslot(this.id)"><p>Slot 4B</p></div>
+        </div>
+
+    </div>
+</body>
+</html>

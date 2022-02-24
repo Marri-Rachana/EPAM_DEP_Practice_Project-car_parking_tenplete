@@ -1,0 +1,38 @@
+#main
+{
+    border: 2px solid lightgray;
+    height: 97vh;
+}
+
+.new
+{
+    position: relative;
+    height: 130px;
+    width:33.3%;
+    background:transparent;
+    cursor: pointer;
+}
+.rows
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.new p{
+    text-align: center;
+    padding: 8%;
+    color: whitesmoke;
+    font-family: 'lato',sans-serif;
+    font-size: 20px;
+}
+
+.frt
+{
+    border: 1px double darkgoldenrod;
+}
+
+.sec
+{
+    border: 1px double white;
+}

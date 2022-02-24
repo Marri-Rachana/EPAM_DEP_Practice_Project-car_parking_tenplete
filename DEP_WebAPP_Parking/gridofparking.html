@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index_style.css">
+    <link rel="stylesheet" href="parking.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        function togglepark()
+        {
+            var boxing = document.getElementById("box2");
+            if(boxing.style.background == "green")
+            {
+                boxing.style.background = "red";
+            }
+            else{
+                boxing.style.background="green";
+            }
+        }
+
+    </script>
+</head>
+<body class="body_class"> 
+    <div class="container" class="boxi">
+        <div class="box book" id="box2" onclick="togglepark()" style="cursor: pointer;"></div>
+        <div class="road" ></div>
+        <div class="box book" onclick="togglepark()"></div>
+        <div class="box1 book" onclick="togglepark()" style="cursor: pointer;"></div>
+        <div class="road" ></div>
+        <div class="box1 book" onclick="togglepark()"></div>
+        <div class="box book" onclick="togglepark()"></div>
+        <div class="road" ></div>
+        <div class="box book"onclick="togglepark()"></div>
+        <div class="box1 book"onclick="togglepark()"></div>
+        <div class="road"></div>
+        <div class="box1 book" onclick="togglepark()"></div>
+        <div class="box book" onclick="togglepark()"></div>
+        <div class="road"></div>
+        <div class="box book" onclick="togglepark()"></div>
+
+    </div>
+</body>
+</html>

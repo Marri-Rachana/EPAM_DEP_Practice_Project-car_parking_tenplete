@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME PAGE</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index_style.css">
+    <link rel="stylesheet" href="index_css.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css"/>
+</head>
+<body class="body_class">
+    <div class="login-user">
+       <div class="heading" ><h1>Easy Parking</h1></div>
+       <div class="buttondiv">
+         <a href="login.html"><button type="button" class="loginbutton">LOGIN</button></a>
+       </div>
+    </div>
+    <div class="navbardiv">
+        <div class="sizingdiv"><a href="#aboutus"><button type="button" class="aboutusbutton"><i class="fa fa-user" style="padding-right: 5px;color: rgba(219, 221, 73, 0.993);"></i>AboutUS</button></a></div>
+        <div class="sizingdiv"><a href="#pricing"><button type="button" class="pricingbutton"><i class="fa fa-inr" style="padding-right: 5px;color:  rgba(219, 221, 73, 0.993);"></i>Pricing</button></a></div>
+        <div class="sizingdiv"><a href="#rewards"><button type="button" class="rewardbutton"><i class="fa fa-star" style="padding-right: 5px;color:  rgba(219, 221, 73, 0.993);"></i>Rewards&Awards</button></a></div>
+        <div class="sizingdiv"><a href="#reviews"><button type="button" class="reviewbutton"><i class="fa fa-comments" style="padding-right: 5px;color:  rgba(219, 221, 73, 0.993);"></i>Reviews</button></a></div>
+        <div class="sizingdiv"><a href="#contactus"><button type="button" class="contactusbutton"><i class="fa fa-phone" style="padding-right: 5px;color:  rgba(219, 221, 73, 0.993);"></i>ContactUS</button></a></div>
+        <div class="sizingdiv"><a href="#groupbook"><button type="button" class="groupbutton">GroupBooking!</button></a></div>
+    </div>
+    <br><br><br>
+    <article id="aboutus">
+        <img src="./images/aboutus2.jpg" alt="an image of parking" class="aboutusimg">
+        <p id="paraonus">We,the team of Smart parking offer the premium parking facilities at your convience.We provide facilities like parking slot checking availability,pre-registration of parking slot and on-time parking slot change on one tap.Pay for the time you use is our popular feature.There are two types of booking Premium-booking and Group-booking<span id="dots">...</span><span id="more"> Premium-Booking you will pay for you used and the time is calculated from the moment you select the slot and it is ended once you check out.In Group-Booking you pre-select different slots for an ample amount of pre-fixed time and pay for it even if you use it or not generally it is used for events,corporate parties etc.Park at your convience is the best feature we could deliver.All the slots that are booked are shown in red and available slots are transparent and the slot you booked is displayed green.You can also choose the type of item you are going to park and estimation is made based on type of vehicle.You can also get discounts if you have any coupouns or premium-membership.You can avail different offers with us.You can make payments through phone-wallets:Paytym,G-pay,AmazonPay,PhonePay.You can also use Credit card and Debit card for payments.You can download the billing invoice for future reference.To Avail all this benifits you just have to register with us if you are new user else if you are an old user u can just login and enjoy all this offers.Hope YOU enjoy Parking with us.We try our best to surve you in all the means.</span></p>
+        <button onclick="myFunction()" id="myBtn">Read more</button>
+        <script src="index_JS.js"></script>
+    </article>
+    <br><br><br><br>
+    <div id="pricing">
+        <div class="columns">
+            <ul class="price">
+              <li class="header">Basic</li>
+              <li class="grey">Free</li>
+              <li>Pre-Registration available.</li>
+              <li>On-Spot register limited</li>
+              <li>Can pay through any means.</li>
+            </ul>
+          </div>
+          
+          <div class="columns">
+            <ul class="price">
+              <li class="header" style="background-color:#4CAF50">Premium</li>
+              <li class="grey">INR 1224.99 / year</li>
+              <li>Pre-Registration available</li>
+              <li>On-Spot register available</li>
+              <li>Can pay through any means.</li>
+            </ul>
+          </div>
+          <div class="columns">
+            <ul class="price">
+              <li class="header">Group Premium</li>
+              <li class="grey">INR 3000 /year</li>
+              <li>Pre-GroupRegistration available.</li>
+              <li>On-Spot GroupBooking available</li>
+              <li>Can pay through any means.</li>
+            </ul>
+          </div>
+        </div>
+        <br><br><br><br>
+        <div id="rewards">
+            <div class="rewardgrids">
+                <img src="./images/rewards_pic_1.jpg" alt="" id="reward_1">
+                <center><h2 style="margin:20px;">Best Car Parking Award</h2></center>
+                </div>
+            <div class="rewardgrids">
+                <img src="./images/rewards_pic_2.jpg" alt="" id="reward_2">
+                <center><h2 style="margin:20px;">Best Car Parking Certification.</h2></center>
+            </div>
+            <div class="rewardgrids">
+                <img src="./images/rewards_pic_3.jpg" alt="" id="reward_2">
+               <center><h2 style="margin:20px;">Best Car Parking.</h2></center>
+            </div>
+        </div>
+        <br><br><br><br>
+        <div class="gallery js-flickity" id="reviews">
+          <div class="gallery-cell">
+            <img src="https://i.imgur.com/lE89Aey.jpg" class="reviewimg" />
+            <p class="reviewpara">
+              With easy parking it helps me to save a lot of time and helps me to be
+              organised better.Kudos to the Brilliant team at easy parking.<br><br><span style="color: black;text-align: center;">-Rajashekar</span>
+            </p>
+          </div>
+          <div class="gallery-cell">
+            <img src="https://i.imgur.com/lE89Aey.jpg" class="reviewimg" />
+            <p class="reviewpara">
+              With easy parking it helps me to save a lot of time and helps me to be
+              organised better.Kudos to the Brilliant team at easy parking.<br><br><span style="color: black;text-align: center;">-Tarun</span>
+            </p>
+          </div>
+          <div class="gallery-cell">
+            <img src="https://i.imgur.com/lE89Aey.jpg" class="reviewimg" />
+            <p class="reviewpara">
+              With easy parking it helps me to save a lot of time and helps me to be
+              organised better.Kudos to the Brilliant team at easy parking<br><br><span style="color: black;text-align: center;">-Rishika</span>
+            </p>
+          </div>
+          <div class="gallery-cell">
+            <img src="https://i.imgur.com/lE89Aey.jpg" class="reviewimg"/>
+            <p class="reviewpara">
+              With easy parking it helps me to save a lot of time and helps me to be
+              organised better.Kudos to the Brilliant team at easy parking<br><br><span style="color: black;text-align: center;">-Bhavana</span>
+            </p>
+          </div>
+          <div class="gallery-cell">
+            <img src="https://i.imgur.com/lE89Aey.jpg" class="reviewimg"/>
+            <p class="reviewpara">
+              With easy parking it helps me to save a lot of time and helps me to be
+              organised better.Kudos to the Brilliant team at easy parking<br><br><span style="color: black;text-align: center;">-Rachana</span>
+            </p>
+          </div>
+          <div class="gallery-cell">
+            <img src="https://i.imgur.com/lE89Aey.jpg" class="reviewimg" />
+            <p class="reviewpara">I Loved Smart Parking aLot it is very flexible and fast.It save a lot of time and helps me to be
+              organised better.Kudos to the Brilliant team at easy parking.<br><br><span style="color: black;text-align: center;">-Nick Williom</span></p>
+          </div>
+        </div>
+        <br><br><br><br>
+        <div id="contactus">
+            <h2 style="text-align:center;margin: 30px;color:black">ContactUS</h2>
+            <a href="mailto:Rachana_Marri@epam.com"><button type="button" id="mailus"><i class="fa fa-envelope" style="padding-right: 5px;color: rgba(219, 221, 73, 0.993);"></i>MailUS</button></a>
+            <a href="tel:+91 2323232323"><button type="button" id="phoneus"><i class="fa fa-phone" style="padding-right: 5px;color: rgba(219, 221, 73, 0.993);"></i>CallUS</button></a>
+          </div>
+          <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    
+</body>
+</html>
